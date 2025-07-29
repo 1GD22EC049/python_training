@@ -1,0 +1,24 @@
+if num > 100:
+    print("The number is greater than 100.")
+else:
+    print("The number is than 100.")
+    Check the number is pos neg or zero 
+num = int(input("Enter a number: "))
+if num > 0:
+    print("The number is positive.")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+convert int to float
+int_num = 42
+float_num = float(int_num)
+print(f"Integer {int_num} converted to float: {float_num}")
+# convert float to int
+original_float = 7.9
+converted_int = int(original_float)
+print(f"Float {original_float} converted to integer: {converted_int}")
+Prompt the user to enter three numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))

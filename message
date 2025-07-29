@@ -1,0 +1,3 @@
+print message
+msg = input("enter message")
+print(msg)

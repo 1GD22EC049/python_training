@@ -1,0 +1,13 @@
+from datetime import datetime
+def calculate_age():
+    dob_str = input("Enter your date of birth (YYYY-MM-DD): ")
+    try:
+        birthdate = datetime.strptime(dob_str, "%Y-%m-%d")
+        today = datetime.today()
+        age = today.year - birthdate.year - (
+            (today.month, today.day) < (birthdate.month, birthdate.day)
+        )
+        print("Your age is:", age)
+    except ValueError:
+        print("Invalid format. Please enter the date in YYYY-MM-DD format.")
+calculate_age()

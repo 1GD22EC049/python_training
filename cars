@@ -1,0 +1,11 @@
+Starts from 0,1,2,3...
+cars = ["Ford","Volvo","BMW","TATA"]
+To find the length of the array
+print(len(cars))
+access the 8th position
+print(cars[2])
+for i in range(len(cars)):
+    print(cars[1])
+
+for i in cars:
+        print(i)

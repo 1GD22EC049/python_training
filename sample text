@@ -1,0 +1,6 @@
+List = ["one","two","three"]
+print(list[2])
+except Exception as e;
+ print("error")
+ with open("sample,txt", 'w') as file:
+      file,write("some text")

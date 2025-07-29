@@ -1,0 +1,4 @@
+ to count the characters in string
+text = "Thanushree"
+character_count = len(text)
+print("Total characters:", character_count)

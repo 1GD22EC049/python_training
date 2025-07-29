@@ -1,0 +1,6 @@
+# print date and time using python function
+import datetime
+def print_current_datetime():
+now = datetime.datetime.now()
+print("Current date and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
+print_current_datetime()

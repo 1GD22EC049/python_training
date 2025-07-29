@@ -1,0 +1,4 @@
+#  get the input from the user and call the function
+def print_user_info(name, city):
+   text = f"Name is (name), and his city is (city)"
+   print(text)

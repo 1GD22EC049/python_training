@@ -1,0 +1,19 @@
+# Counting how many letters are there in the string
+text = "Thanu"
+char_count = {}
+for char in text:
+    if char in char_count:
+        char_count[char] += 1
+    else:
+        char_count[char] = 1
+for char, count in char_count.items():
+    print(f"'{char}' appears {count} time(s)")
+-------------------------------------------------------------
+    # define the method 
+    def add():
+        print("this ")
+name = "awsedf"
+age = 45
+print(f"Name is {name} and his age is {age},")
+text = f"Name is {name}, and his age is {age}"
+print(text)
