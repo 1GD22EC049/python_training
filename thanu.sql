@@ -1,0 +1,1 @@
+SELECT * FROM thanu_ece.school;

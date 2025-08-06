@@ -1,0 +1,67 @@
+
+-- create table city(
+-- id int,
+-- name varchar(50),
+-- country varchar(30)
+-- )
+-- show tables;
+-- insert into city(id,name)values(1,"thanu")
+-- select * from city
+-- insert into city(id,name,country)values(2,"thanu","India")
+-- select * from city
+-- insert into city(id,name,country)values(2,"bangalore","India")
+--  select * from city
+ -- select * from city where name = 'bangalore'  
+--  select * from city where id = 2
+select * from city where country = 'India' or id = 3
+-- select * from city where country = 'india' or id = 1
+select * from city
+
+-- create table student(
+-- roll_no int,
+-- name varchar(50),
+-- street text,
+-- address text
+-- )
+-- show tables;
+-- insert into student(roll_no,name,street,address)values(5,"XYZ","street5","street5,bangalore,india")
+-- select * from student
+-- select * from student where street = "street2"
+-- select * from student where name = "thanu"
+-- select * from student where roll_no>3
+
+- create table user(
+-- id int not null,
+-- name varchar(50),
+-- email varchar(50),
+-- mobile varchar(50),
+-- primary key(id)
+-- )
+-- show tables;
+-- insert into user(id,name,email,mobile)values(2,"thanu","thanushree3888@gmail.com","6364058948")
+select * from user
+
+-- create table word (
+-- id int not null,
+-- name varchar(50),
+-- email varchar(50),
+-- mobile varchar(50),
+-- primary key(id)
+
+-- alter table word
+-- add city varchar(40)
+-- )
+-- select * from word
+-- insert into word(id,name,email,mobile)values(1,"thanu","thanushree3888@gmail.com","6364058948")
+-- select * from word
+-- insert into word(id,name,email,mobile)values(2,"lokesh","lokesh3888@gmail.com","9620136355")
+-- select * from word
+-- insert into word(id,name,email,mobile)values(2,"lokesh","lokesh3888@gmail.com","9620136355")
+-- select * from word
+-- insert into word(id,name,email,mobile)values(3,"gayathri","gayathri3888@gmail.com","8050874503")
+-- select * from word
+insert into word(id,name,email,mobile)values(4,"Dhanush","dhanush3888@gmail.com","8073352036")
+-- select * from word
+
+
+
